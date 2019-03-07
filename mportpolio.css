@@ -13,7 +13,7 @@ h1,h2{background-image: url(bg.jpg);background-repeat: repeat-x;}
 img(border:0; padding:2px);
 
 nav{margin: 5px 5px;}
-nav >span >a {font-style: bold; margin:0; padding:33px; border: 2px solid purple;
+nav >span >a {font-style: bold; margin:0; padding:3px; border: 2px solid purple;
 float:right; text-decoration: none; background: purple; color: white;}
 nav>span>a: hover{background: #ff00ff; color: white;}
 @media only screen and (min-width:321px) and (orientation:landscape) {
