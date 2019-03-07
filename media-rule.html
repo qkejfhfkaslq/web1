@@ -6,17 +6,26 @@
         <title></title>
     </head>
     <style >
-        @media screen {
-            *{font-family:serif; font-size:24px;}
+        @media only screen and (max-width:320px) {
+            *{background: limegreen; color:white;}
         }
-        @media print {
-            *{font-family:sans-serif; font-size:8px;}
+
+        @media only screen and (max-width:321px) and (orientation:portrait) {
+            *{background: lightyellow; color:black;}
         }
+
+        @media only screen and (max-width:321px) and (orientation:landscape) {
+            *{background: purple; color:white;}
+        }
+
+        h1 {font-size: 48px;}
+        h2 {font-size: 24px;}
 
     </style>
     <body>
 
         <h1>@media 규칙 활용</h1>
+        <h2>반응형 웹에 대한 예</h2>
         <p>미디어 유형 정의 예1</p>
     </body>
 </html>
